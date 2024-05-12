@@ -1,0 +1,70 @@
+@font-face {
+    font-family: 'Pretendard-Regular';
+    src: url('https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'D2Coding';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_three@1.0/D2Coding.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body,
+input,
+textarea {
+    font-size: 19px;
+    font-family: 'Pretendard-Regular';
+}
+
+/* 리스트 */
+#article-view ul,
+#article-view ol {
+    margin: 0 auto;
+    padding: 0 0 0 10px;
+}
+
+/* 리스트 */
+#article-view ul li,
+#article-view ol li {
+    margin: 0 0 0 12px;
+    line-height: 1.7;
+    font-size: 19px;
+}
+
+/* 리스트 */
+ul,
+ol {
+    margin: 0 auto;
+    padding: 0 0 0 10px;
+}
+
+/* 리스트 */
+ul li,
+ol li {
+    margin: 0 0 0 12px;
+    line-height: 1.7;
+    font-size: 19px;
+}
+
+/* 코드 블럭 */
+#article-view pre code.hljs {
+    font-size: 16px;
+    padding: 20px;
+    font-family: 'D2Coding', monospace;
+    border: solid 1px #ebebeb;
+    line-height: 1.7;
+    overflow: auto;
+}
+
+/* 코드 블럭 */
+pre.hljs {
+    font-size: 16px;
+    padding: 20px;
+    font-family: 'D2Coding', monospace;
+    border: solid 1px #ebebeb;
+    line-height: 1.7;
+    overflow: auto;
+}
