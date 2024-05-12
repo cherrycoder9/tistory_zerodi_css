@@ -19,8 +19,8 @@ textarea {
     font-family: 'Pretendard-Regular';
 }
 
-h1,
-h2 {
+#mCSB_1_container>h1,
+#head>h2 {
     font-weight: bold;
     font-size: larger;
 }
