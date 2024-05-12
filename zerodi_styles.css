@@ -19,6 +19,12 @@ textarea {
     font-family: 'Pretendard-Regular';
 }
 
+h1,
+h2 {
+    font-weight: bold;
+    font-size: larger;
+}
+
 /* 리스트 */
 #article-view ul,
 #article-view ol {
